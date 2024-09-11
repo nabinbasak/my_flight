@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Container, Typography, IconButton, Badge, Modal, Box, Divider, AppBar, Toolbar, Grid, Fab } from '@mui/material';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import FlightForm from './components/FlightForm';
 import FlightResults from './components/FlightResults';
 import Cart from './components/Cart';
