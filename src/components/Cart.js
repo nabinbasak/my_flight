@@ -1,6 +1,6 @@
 import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { Container, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TableFooter, TablePagination, Typography, Button, Box, Grid } from '@mui/material';
+import { useSelector, useDispatch } from 'react-redux'; //TablePagination
+import { Container, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, TableFooter, Typography, Button, Box, Grid } from '@mui/material';
 import { removeFromCart, clearCart } from '../slices/cartSlice';
 import { toast } from 'react-toastify';
 import DeleteIcon from '@mui/icons-material/Delete';
