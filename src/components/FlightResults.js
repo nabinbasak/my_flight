@@ -115,7 +115,7 @@ const FlightResults = () => {
 
     let segmentList = [];
     let stopLen = -1 
-
+    let segment_time = 0
   return (
     <Container>
       <Typography variant="h4" gutterBottom>
@@ -182,7 +182,7 @@ const FlightResults = () => {
 
               let totalJourneyInMins = 0
               let flyingTimeInMinutes = 0
-              let segment_time = 0
+              segment_time = 0
 
               if(flight?.legList && flight.legList.length > 0){
                 if(flight.legList[0]?.itineraryList && flight.legList[0]?.itineraryList.length > 0){
